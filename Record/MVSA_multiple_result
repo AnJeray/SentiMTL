@@ -1,0 +1,95 @@
+2024-10-18 05:29:47.331952: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-10-18 05:29:47.332020: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-10-18 05:29:47.333557: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+Data Ready:
+Training Begin:
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:41<00:00,  2.11it/s]
+Epoch: 0 result:
+Train: Accuracy: 0.666373, F1(weighted): 0.613051, Precision(weighted): 0.613746, Recall(weighted): 0.666373, F1(macro): 0.437190, Precision: 0.545383, Recall: 0.423699, loss: 0.011769
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:08<00:00,  3.30it/s]
+Dev: Accuracy: 0.709336, F1(weighted): 0.681099, Precision(weighted): 0.678569, Recall(weighted): 0.709336, F1(macro): 0.557367, Precision: 0.623387, Recall: 0.530099, loss: 0.000164
+
+---Best model saved!---
+Test Iteration, loss: 0.012602: 100%|███████████| 27/27 [00:08<00:00,  3.33it/s]
+Test : Accuracy: 0.717557, F1(weighted): 0.686647, Precision(weighted): 0.689487, Recall(weighted): 0.717557, F1(macro): 0.549018, Precision: 0.621224, Recall: 0.522910, loss: 0.000161
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:40<00:00,  2.12it/s]
+Epoch: 1 result:
+Train: Accuracy: 0.719542, F1(weighted): 0.696489, Precision(weighted): 0.693387, Recall(weighted): 0.719542, F1(macro): 0.589564, Precision: 0.631782, Recall: 0.570478, loss: 0.009835
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:07<00:00,  3.40it/s]
+Dev: Accuracy: 0.715796, F1(weighted): 0.692399, Precision(weighted): 0.688724, Recall(weighted): 0.715796, F1(macro): 0.568562, Precision: 0.622009, Recall: 0.543451, loss: 0.000162
+
+---Best model saved!---
+Test Iteration, loss: 0.013838: 100%|███████████| 27/27 [00:08<00:00,  3.35it/s]
+Test : Accuracy: 0.728127, F1(weighted): 0.705606, Precision(weighted): 0.702942, Recall(weighted): 0.728127, F1(macro): 0.565675, Precision: 0.614682, Recall: 0.542938, loss: 0.000161
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:39<00:00,  2.13it/s]
+Epoch: 2 result:
+Train: Accuracy: 0.778586, F1(weighted): 0.770039, Precision(weighted): 0.767642, Recall(weighted): 0.778586, F1(macro): 0.701601, Precision: 0.731528, Recall: 0.679964, loss: 0.008166
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:07<00:00,  3.41it/s]
+Dev: Accuracy: 0.677628, F1(weighted): 0.682714, Precision(weighted): 0.695101, Recall(weighted): 0.677628, F1(macro): 0.571257, Precision: 0.601500, Recall: 0.559065, loss: 0.000188
+
+Test Iteration, loss: 0.017267: 100%|███████████| 27/27 [00:08<00:00,  3.37it/s]
+Test : Accuracy: 0.695831, F1(weighted): 0.694845, Precision(weighted): 0.698468, Recall(weighted): 0.695831, F1(macro): 0.568855, Precision: 0.601785, Recall: 0.553154, loss: 0.000187
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:39<00:00,  2.13it/s]
+Epoch: 3 result:
+Train: Accuracy: 0.845414, F1(weighted): 0.843279, Precision(weighted): 0.842790, Recall(weighted): 0.845414, F1(macro): 0.798655, Precision: 0.824301, Recall: 0.777464, loss: 0.006142
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:07<00:00,  3.38it/s]
+Dev: Accuracy: 0.685261, F1(weighted): 0.670827, Precision(weighted): 0.664377, Recall(weighted): 0.685261, F1(macro): 0.547914, Precision: 0.586325, Recall: 0.525944, loss: 0.000244
+
+Test Iteration, loss: 0.026134: 100%|███████████| 27/27 [00:07<00:00,  3.38it/s]
+Test : Accuracy: 0.704052, F1(weighted): 0.685932, Precision(weighted): 0.678791, Recall(weighted): 0.704052, F1(macro): 0.543597, Precision: 0.580449, Recall: 0.524056, loss: 0.000246
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:39<00:00,  2.13it/s]
+Epoch: 4 result:
+Train: Accuracy: 0.904605, F1(weighted): 0.904174, Precision(weighted): 0.904314, Recall(weighted): 0.904605, F1(macro): 0.879332, Precision: 0.896569, Recall: 0.864206, loss: 0.004082
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:07<00:00,  3.40it/s]
+Dev: Accuracy: 0.678215, F1(weighted): 0.671411, Precision(weighted): 0.668208, Recall(weighted): 0.678215, F1(macro): 0.547240, Precision: 0.578947, Recall: 0.528059, loss: 0.000280
+
+Test Iteration, loss: 0.030787: 100%|███████████| 27/27 [00:07<00:00,  3.41it/s]
+Test : Accuracy: 0.699941, F1(weighted): 0.687605, Precision(weighted): 0.681784, Recall(weighted): 0.699941, F1(macro): 0.559432, Precision: 0.594583, Recall: 0.538455, loss: 0.000283
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:40<00:00,  2.13it/s]
+Epoch: 5 result:
+Train: Accuracy: 0.933906, F1(weighted): 0.933768, Precision(weighted): 0.933905, Recall(weighted): 0.933906, F1(macro): 0.913958, Precision: 0.925673, Recall: 0.903355, loss: 0.002806
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:08<00:00,  3.37it/s]
+Dev: Accuracy: 0.687023, F1(weighted): 0.675176, Precision(weighted): 0.669896, Recall(weighted): 0.687023, F1(macro): 0.551179, Precision: 0.590146, Recall: 0.528747, loss: 0.000336
+
+Test Iteration, loss: 0.035885: 100%|███████████| 27/27 [00:07<00:00,  3.41it/s]
+Test : Accuracy: 0.692895, F1(weighted): 0.677024, Precision(weighted): 0.669629, Recall(weighted): 0.692895, F1(macro): 0.541011, Precision: 0.569916, Recall: 0.524347, loss: 0.000334
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:39<00:00,  2.13it/s]
+Epoch: 6 result:
+Train: Accuracy: 0.952045, F1(weighted): 0.952013, Precision(weighted): 0.952128, Recall(weighted): 0.952045, F1(macro): 0.937677, Precision: 0.945777, Recall: 0.930176, loss: 0.002060
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:07<00:00,  3.40it/s]
+Dev: Accuracy: 0.680564, F1(weighted): 0.664904, Precision(weighted): 0.660805, Recall(weighted): 0.680564, F1(macro): 0.529951, Precision: 0.589213, Recall: 0.503660, loss: 0.000385
+
+Test Iteration, loss: 0.040824: 100%|███████████| 27/27 [00:08<00:00,  3.28it/s]
+Test : Accuracy: 0.694069, F1(weighted): 0.674241, Precision(weighted): 0.668481, Recall(weighted): 0.694069, F1(macro): 0.534449, Precision: 0.589110, Recall: 0.509473, loss: 0.000380
+
+
+Train Iteration: 100%|████████████████████████| 213/213 [01:39<00:00,  2.13it/s]
+Epoch: 7 result:
+Train: Accuracy: 0.962914, F1(weighted): 0.962892, Precision(weighted): 0.962955, Recall(weighted): 0.962914, F1(macro): 0.951882, Precision: 0.958019, Recall: 0.946088, loss: 0.001569
+Dev Iteration: 100%|████████████████████████████| 27/27 [00:07<00:00,  3.40it/s]
+Dev: Accuracy: 0.675866, F1(weighted): 0.665872, Precision(weighted): 0.659852, Recall(weighted): 0.675866, F1(macro): 0.538604, Precision: 0.563673, Recall: 0.522230, loss: 0.000407
+
+Test Iteration, loss: 0.044704: 100%|███████████| 27/27 [00:07<00:00,  3.38it/s]
+Test : Accuracy: 0.688197, F1(weighted): 0.674056, Precision(weighted): 0.666924, Recall(weighted): 0.688197, F1(macro): 0.542383, Precision: 0.570016, Recall: 0.525645, loss: 0.000395
+
+
+Epoch: 100%|█████████████████████████████████████| 8/8 [15:32<00:00, 116.59s/it]
+
+
+
+Test Begin
+Test Iteration, loss: 0.013838: 100%|███████████| 27/27 [00:08<00:00,  3.32it/s]
+Test : Accuracy: 0.728127, F1(weighted): 0.705606, Precision(weighted): 0.702942, Recall(weighted): 0.728127, F1(macro): 0.565675, Precision: 0.614682, Recall: 0.542938, loss: 0.000161
