@@ -1,0 +1,37 @@
+# 8-23 reduction='batchmean',
+lr =5e-5
+bert_lr = 3e-5
+dataset = "MVSA_multiple"
+epoch = 8
+batch = 64
+acc_grad = 1
+weight_decay = 0.01
+nhead = 4
+alpha = 1
+beta = 0.3
+dropout = 0.3
+dropout2 = 0.3
+num_layers = 1
+seed = 42
+
+# 构造命令字符串
+command = (
+    f"python main.py -epoch {epoch} "
+    f"-num_workers 4 "
+    f"-dataset {dataset} "
+    f"-batch_size {batch} "
+    f"-acc_grad {acc_grad} "
+    f"-weight_decay {weight_decay} "
+    f"-dropout {dropout} "
+    f"-dropout2 {dropout2} "
+    f"-nhead {nhead} "
+    f"-num_layers {num_layers} "
+    f"-seed {seed} "
+    f"-alpha {alpha} "
+    f"-beta {beta} "
+    f"-lr {lr} "
+    f"-bert_lr {bert_lr}"
+)
+
+# 在 notebook 中执行命令
+!{command}
